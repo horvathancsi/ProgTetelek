@@ -1,0 +1,22 @@
+int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5;
+ 
+		int i = 0;
+		while(i<n && t[i]!=ker)
+			i++;
+ 
+		if(i<n)
+			Console.WriteLine("Indexe: {0}", i);
+		else
+			Console.WriteLine("Nincs benne");
+
+int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5; 
+ 
+		int i = 0;
+		while(t[i] != ker)
+			i++;
+ 
+		Console.WriteLine("Az 5-ös indexe: {0}", i);
